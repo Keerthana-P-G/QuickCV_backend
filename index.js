@@ -1,9 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
-// const bodyParser = require('body-parser');
 const cors = require('cors');
 const pdf = require('html-pdf');
-// const path = require('path');
 const PersonalDetail = require('./models/PersonalDetails');
 const Education = require('./models/Education');
 const Internship = require('./models/Internship');
